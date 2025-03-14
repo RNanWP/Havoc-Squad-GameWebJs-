@@ -14,13 +14,38 @@ const config = {
 const game = new Phaser.Game(config);
 
 function preload() {
-  // Carregar assets (imagens, sons, etc.)
   this.load.image("background", "assets/background.png");
+  this.load.spritesheet("player", "assets/player.png", {
+    frameWidth: 32,
+    frameHeight: 32,
+  });
 }
 
 function create() {
-  // Adicionar elementos à tela
   this.add.image(400, 300, "background");
+
+  // Criando o jogador
+  this.player = this.physics.add.sprite(400, 300, "player");
+
+  // Adicionando controles de teclado
+  this.cursors = this.input.keyboard.createCursorKeys();
 }
 
-function update() {}
+function update() {
+  // Movimentação do jogador
+  if (this.cursors.left.isDown) {
+    this.player.setVelocityX(-160);
+  } else if (this.cursors.right.isDown) {
+    this.player.setVelocityX(160);
+  } else {
+    this.player.setVelocityX(0);
+  }
+
+  if (this.cursors.up.isDown) {
+    this.player.setVelocityY(-160);
+  } else if (this.cursors.down.isDown) {
+    this.player.setVelocityY(160);
+  } else {
+    this.player.setVelocityY(0);
+  }
+}
