@@ -12,7 +12,7 @@ Este é um projeto de um **jogo 2D** desenvolvido com **Phaser 3**, onde o jogad
 ---
 
 ## 🚀 **Tecnologias Utilizadas**
-- **Phaser 3** - Framework para jogos 2D.
+- ** Phaser 3 ** - Framework para jogos 2D.
 - **JavaScript** - Linguagem de programação principal.
 - **VSCode** - Editor recomendado para desenvolvimento.
 - **Node.js** - Para rodar um servidor local (caso necessário).
