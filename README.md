@@ -9,15 +9,13 @@ Este é um projeto de um **jogo 2D** desenvolvido com **Phaser 3**, onde o jogad
 - **Sprites invertidos automaticamente** para o movimento à esquerda.
 - **Idle correspondente à última direção movida**.
 
----
 
 ## 🚀 **Tecnologias Utilizadas**
-- ** Phaser 3 ** - Framework para jogos 2D.
+- **Phaser 3** - Framework para jogos 2D.
 - **JavaScript** - Linguagem de programação principal.
 - **VSCode** - Editor recomendado para desenvolvimento.
 - **Node.js** - Para rodar um servidor local (caso necessário).
 
----
 
 ## 📂 **Estrutura do Projeto**
 ```plaintext
@@ -32,15 +30,15 @@ Este é um projeto de um **jogo 2D** desenvolvido com **Phaser 3**, onde o jogad
  ├── package.json        # Dependências do projeto (se aplicável)
  └── README.md           # Documentação do projeto
 
-
----
+```
 
 ## 🛠️ **Possíveis Melhorias**
 ```markdown
 - Criar animações para inimigos e interações.  
 - Implementar colisões e detecção de ataques.  
 - Adicionar efeitos sonoros.  
-- Criar um sistema de pontuação e vidas.  
+- Criar um sistema de pontuação e vidas. 
+```
 
 ## 📜 Licença
 Este projeto é de código aberto e pode ser usado para aprendizado e aprimoramento. Se for compartilhar, **dê os devidos créditos**. 🚀  
